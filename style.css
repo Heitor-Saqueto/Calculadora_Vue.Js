@@ -1,0 +1,42 @@
+.calculadora{
+  width: 150px;
+}
+
+.linha{
+    display: flex;
+}
+
+button{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(247, 166, 104);
+    margin: 1px;
+}
+button:hover{
+    color: white;
+    background-color: #9c65cb;
+}
+
+button:active{
+    color:white;
+    background-color: #4b0f80;
+    transform: translateY(1px);
+}
+
+.operador {
+    color: #ffffff;
+    background-color: #a15fdb;
+}
+.igual {
+    color: white;
+    background-color: #4374be;
+}
+
+.display{
+    display: flex;
+    justify-content: end;
+    height: 30px;
+    margin-right: 5px;
+}
